@@ -1,0 +1,14 @@
+.button_1 {
+  color: #fff;
+  background-color: #7352ff !important;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  white-space: nowrap;
+  padding: 4px 12px;
+}
+@media (max-width: 500px) {
+  .button_1 {
+    font-size: 13px;
+  }
+}

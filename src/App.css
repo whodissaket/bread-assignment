@@ -1,0 +1,41 @@
+:root {
+  --mst-use: #7352ff;
+  --gradient-bg: linear-gradient(
+    90deg,
+    #7352ff 0%,
+    #7552ff 0.01%,
+    #7352ff 0.02%,
+    #7f52ff 49.48%,
+    #7552ff 99.99%,
+    #7352ff 100%
+  );
+  --header-bg: #a088ff0a;
+  --transition: all 2ms linear;
+}
+
+.app {
+  background-color: #7352ff;
+}
+
+.flexed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-btw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.fx-start {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}

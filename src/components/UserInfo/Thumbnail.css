@@ -1,0 +1,48 @@
+.thumb__container {
+  background: #fff;
+}
+
+.thumb__advert {
+  color: #2b2a35;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.img__wrap {
+  border: 1px solid var(--mst-use);
+  border-radius: 5px;
+}
+.img__thumb {
+  width: 350px;
+}
+
+.contact {
+  color: var(--mst-use);
+}
+
+.contact,
+.img__thumb {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .thumb__container {
+    flex-wrap: wrap;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .thumb__advert {
+    font-size: 16px;
+  }
+
+  .img__wrap {
+    margin-top: 15px;
+  }
+  .img__thumb {
+    width: 290px;
+  }
+}

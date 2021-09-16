@@ -1,0 +1,11 @@
+.cmain__container {
+  background: var(--mst-use);
+  border: 0.5px solid #fff;
+  border-radius: 9px;
+
+  margin-top: 80px;
+
+  @media screen and (max-width: 78px) {
+    margin-top: 120px;
+  }
+}

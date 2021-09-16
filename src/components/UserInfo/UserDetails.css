@@ -1,0 +1,105 @@
+.userd__container {
+  margin-top: 20px;
+}
+/* Socialsssssss */
+.socials__insta {
+  font-size: 15px;
+  cursor: pointer;
+}
+.socials__insta:hover {
+  color: #e1306c;
+}
+/* // */
+.socials__fb {
+  font-size: 15px;
+  cursor: pointer;
+}
+.socials__fb:hover {
+  color: #4267b2;
+}
+/* // */
+.socials__yt {
+  font-size: 15px;
+  cursor: pointer;
+}
+.socials__yt:hover {
+  color: #ff0000;
+}
+/*  */
+.socials__tw {
+  font-size: 15px;
+  cursor: pointer;
+}
+.socials__tw:hover {
+  color: #1da1f2;
+}
+/*  */
+.socials__sp {
+  font-size: 15px;
+  cursor: pointer;
+}
+.socials__sp:hover {
+  color: #1db954;
+}
+/*  */
+.socials__li {
+  font-size: 15px;
+  cursor: pointer;
+}
+.socials__li:hover {
+  color: #0077b5;
+}
+/*  */
+.divide {
+  border-top: 0.5px solid gray;
+  opacity: 0.5;
+}
+
+.user__bio {
+  color: #a5a5a5;
+  align-items: center;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+
+.p__location,
+.locationIcon {
+  font-weight: bold;
+}
+
+.locationValue {
+  font-size: 12px;
+  padding: 1px 8px;
+  background: #ddd;
+  border-radius: 8px;
+}
+
+@media (max-width: 500px) {
+  .locationValue {
+    font-size: 10px !important;
+  }
+
+  .socials__insta {
+    font-size: 13px;
+  }
+  .socials__fb {
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .socials__tw {
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .socials__yt {
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .socials__li {
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .socials__sp {
+    font-size: 15px;
+    cursor: pointer;
+  }
+}

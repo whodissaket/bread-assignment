@@ -1,0 +1,33 @@
+.userc__footer {
+  background: #fff;
+  padding: 20px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.footer__top {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.wrap {
+  border: 1px solid #d3c9ff;
+  border-radius: 12px;
+}
+
+input {
+  border: 1px solid #d3c9ff;
+  border-radius: 8px;
+}
+input:focus {
+  outline-width: 0;
+}
+
+input::placeholder {
+  font-size: 13px;
+}
+
+@media (max-width: 500px) {
+  input {
+    width: 60%;
+  }
+}

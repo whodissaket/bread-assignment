@@ -1,0 +1,31 @@
+.ctop__container {
+  background: #fff;
+  padding: 10px 12px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.img__wrap {
+  border: 1px solid var(--mst-use);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.user__item {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 1px solid var(--mst-use);
+}
+
+.user__bio {
+  width: 85%;
+}
+
+@media (max-width: 786px) {
+  .user__item {
+    font-size: 9px;
+    padding: 2px 4px;
+  }
+}
