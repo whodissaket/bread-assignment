@@ -1,6 +1,9 @@
 .userd__container {
   margin-top: 20px;
 }
+.a__clr {
+  color: #000;
+}
 /* Socialsssssss */
 .socials__insta {
   font-size: 15px;
@@ -49,6 +52,7 @@
 .socials__li:hover {
   color: #0077b5;
 }
+
 /*  */
 .divide {
   border-top: 0.5px solid gray;

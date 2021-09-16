@@ -6,14 +6,18 @@
   border: 1px solid #aaa;
   border-radius: 5px;
   position: relative;
+  transition: transform 0.25s;
+}
+.content__wrap:hover {
+  transform: scale(1.1);
 }
 .carousel-img {
   opacity: 0.3;
   cursor: pointer;
-  transition: var(--transition);
+  transition: transform 0.25s;
 }
 .carousel-img:hover {
-  opacity: 1.5;
+  transform: scale(1.05);
 }
 
 .text {

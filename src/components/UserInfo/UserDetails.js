@@ -24,29 +24,44 @@ function UserDetails() {
       </p>
 
       <div className="user__icons-wrap flex-btw px-3 py-2 my-2 col-lg-6">
-        <span className="socials__insta">
-          {""}
-          <FaInstagram />{" "}
+        <span>
+          {""}{" "}
+          <a className="socials__insta a__clr" href="https://bit.ly/3lxVOXX">
+            <FaInstagram />
+          </a>{" "}
         </span>
-        <span className="socials__fb">
-          {""}
-          <FaFacebookF />{" "}
+        <span>
+          {""}{" "}
+          <a
+            className="socials__fb a__clr "
+            href="https://bit.ly/notanotherthatthing"
+          >
+            <FaFacebookF />
+          </a>{" "}
         </span>{" "}
-        <span className="socials__yt">
+        <span>
           {""}
-          <FaYoutube />{" "}
+          <a className="socials__yt a__clr" href="https://bit.ly/2XkXeg8">
+            <FaYoutube />{" "}
+          </a>
         </span>{" "}
-        <span className="socials__tw">
-          {""}
-          <FaTwitter />{" "}
+        <span>
+          {""}{" "}
+          <a className="socials__tw a__clr" href="https://bit.ly/evilface">
+            <FaTwitter />
+          </a>{" "}
         </span>{" "}
-        <span className="socials__sp">
-          {""}
-          <FaSpotify />{" "}
+        <span>
+          <a className="socials__sp a__clr" href="https://spoti.fi/3hGI6kF">
+            <FaSpotify />
+          </a>
+          {""}{" "}
         </span>{" "}
-        <span className="socials__li">
-          {""}
-          <FaLinkedin />{" "}
+        <span>
+          {""}{" "}
+          <a className="socials__li a__clr" href="https://bit.ly/2XkXeg8">
+            <FaLinkedin />
+          </a>{" "}
         </span>
       </div>
       <div className="divide"></div>
@@ -58,7 +73,7 @@ function UserDetails() {
           </span>{" "}
           Lives in{" "}
         </p>
-        <span className="locationValue ml-3">Tokyo</span>
+        <span className="locationValue ml-3">Ludhiana</span>
       </div>
 
       <div className="locationWrap d-flex justify-contentt-start align-items-center my-3">
@@ -77,4 +92,3 @@ function UserDetails() {
 }
 
 export default UserDetails;
-
