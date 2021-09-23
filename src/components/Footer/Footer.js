@@ -13,10 +13,7 @@ function Footer() {
     <div className=" flex-btw  flex-wrap footer__container">
       <div className="footer__left">
         <div className="footer__left-title flexed mb-0 ">
-          <p className="mb-0">Powered by</p>
-          <span className="footer__logo ml-2 mb-2">
-            <img src="/images/bread-logo.png" width="70" alt="bread" />
-          </span>
+          <span className="footer__logo ml-2 mb-2">whodissaket</span>
         </div>
 
         <div className="icons__wrap flex-btw">
@@ -39,15 +36,11 @@ function Footer() {
           <span className="copyIcon">
             <MdCopyright />{" "}
           </span>
-          Bread 2021. All rights reserved.
+          whodissaket 2021. All rights reserved.
         </p>
 
         <div className="flexed">
-          {/* {footerRightItems.map((item, index) => (
-            <p key={index + 1} className="mb-0 mx-auto footer__right-item">
-              {item}
-            </p>
-          ))} */}
+
           <p className="mb-0 mx-auto footer__right-item">Terms</p>
           <p className="mb-0 mx-auto footer__right-item">Privacy</p>
           <p className="mb-0 mx-auto footer__right-item">About</p>
