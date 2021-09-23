@@ -1,6 +1,7 @@
-# Bread-Front-End Assignment
+# Social Media Demo
 
-This Assignment is made in ReactJS , React-Bootstrap and CSS.You can view the live demo [here](https://bread-assignment.vercel.app/)
+This UI is made in ReactJS , React-Bootstrap and CSS.You can view the live demo [here](https://bread-assignment.vercel.app/).
+Please note that this is just an Figma Design converted to UI and has no functionality.
 
 ## Installation
 
