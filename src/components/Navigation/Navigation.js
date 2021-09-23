@@ -9,7 +9,7 @@ function Navigation() {
   return (
     <div className="flex-btw px-3 py-2 nav__container">
       <div className="nav__left">
-        <h4 className="nav__title mb-0 text-white">bre.ad/jane</h4>
+        <h4 className="nav__title mb-0 text-white">ja.ne/doe</h4>
       </div>
 
       <div
